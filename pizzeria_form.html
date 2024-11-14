@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+        <label>
+            Nombre
+            <input
+                type="text"
+                name="nombre"
+                placeholder="Ingrese su nombre" 
+                required
+            >
+        </label>
+
+        
+
+        <label>
+            Email
+            <input
+                type="email"
+                name="correo"
+                placeholder="Ingrese su correo"
+                required
+            >
+        </label>
+
+        <br>
+        <br>
+
+        <input 
+            type="time" 
+            name="horario"
+            placeholder="Hora de entrega apropiada"
+        >
+
+        <select name="tipo_pizza" required>
+            <option value="napolitana">Pizza Napolitana</option>
+            <option value="pepperoni">Pizza de Pepperoni</option>
+            <option value="vegana">Pizza Vegana</option>
+            <option value="4_quesos">Pizza de 4 Quesos</option>
+        </select>
+
+        <br>
+
+    </form>
+</body>
+</html>
